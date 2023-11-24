@@ -421,7 +421,7 @@ def adjust_text(
     min_arrow_len : float, default 5
         If the text is closer than this to the target point, don't add an arrow
         (in display units)
-    time_lim : float, defaul 0.5
+    time_lim : float, default 0.5
         How much time to allow for the adjustments, in seconds
     args and kwargs :
         any arguments will be fed into obj:`FancyArrowPatch` after all the
